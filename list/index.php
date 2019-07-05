@@ -100,6 +100,14 @@ else
     print "Not found"; 
 
 ?>
+<?php
+$dom = new \DOMDocument();
+@$dom->loadHTML($page); // or @$dom->loadHTMLFile($filename); if providing filename rather than actual HTML content
+
+$count = $dom->getElementsByTagName("li")->length;
+echo '<br><center>Founded <b>',$count,' </b>AnimeDB</center>';
+
+?>
 </div><br><br>
 <center>
  <div class="intro">
