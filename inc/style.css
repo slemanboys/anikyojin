@@ -1,0 +1,93 @@
+ .toto {
+	text-align: center;
+  }
+
+   a {
+   color: pink;
+ }
+
+ .sino {
+   margin: auto;
+   background-color: #655f64;
+   width: 50%;
+   
+   padding: 10px;
+   -moz-border-radius: 5px;
+	 -webkit-border-radius: 20px;
+ }
+
+ .kotak {
+   margin: auto;
+   background-color: #655f64;
+   width: 40%;
+   
+   padding: 10px;
+   -moz-border-radius: 5px;
+	 -webkit-border-radius: 20px;
+ }
+
+ .infox {
+   margin: auto;
+   background-color: #655f64;
+   width: 30%;
+   
+   padding: 10px;
+   -moz-border-radius: 5px;
+	 -webkit-border-radius: 20px;
+ }
+
+ img { 
+width: 200px; 
+height: 200px; 
+border-radius: 50%;
+border: 2px solid gold;
+padding: 1px;
+}
+
+img:hover {
+    -webkit-transform: rotate(1000deg) scale(1.0);
+      transform: rotate(1000deg) scale(1.0);
+      -webkit-transition: .8s ease-in-out;
+      transition: .8s ease-in-out;
+  }
+  
+
+ 
+	div.kotak {
+	 background-color: hotpink;
+	 margin: auto;
+   width: 20%;
+	 color: #000000;
+	 padding: 1px;
+	 
+	 -moz-border-radius: 5px;
+   -webkit-border-radius: 20px; }    
+   
+
+   #steal{
+    background:transparent;
+    margin:2px 2px 4px 2px;
+  }
+  #steal a{
+    padding:8px 12px;
+    margin:1;
+    background:#d20303;
+    text-decoration:none;
+    letter-spacing:1px;
+    -moz-border-radius: 10px; -webkit-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px;
+  }
+  #steal a:hover{
+    background:gray;
+    border-bottom:5px solid #red;
+    border-top:5px solid #red;
+  }
+  
+  .intro {
+    margin: auto;
+    background-color: #f7f3f3;
+    width: 30%;
+    
+    padding: 10px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 20px;
+  }

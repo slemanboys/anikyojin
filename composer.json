@@ -1,0 +1,12 @@
+{
+    "name": "bib/anikyojin",
+    "description": "anikyojin",
+    "license": "apache",
+    "authors": [
+        {
+            "name": "sinkaroid",
+            "email": "bibsindra@gmail.com"
+        }
+    ],
+    "require": {}
+}
