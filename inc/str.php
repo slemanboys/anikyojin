@@ -1,6 +1,5 @@
 <center>
-<div id="steal"><a href="list" rel="nofollow" target="_blank"><font size="3" color="white"><b>Animelist<b/></font></a></div>
-<br><br>
+
 <?php
 //ambil str
 function wordFilter($text)
@@ -11,9 +10,10 @@ function wordFilter($text)
     $ambilkata = str_replace('<div class="moregan">', '<p hidden>', $ambilkata);
     $ambilkata = str_replace('<span class="fa fa-tags">', '<p hidden>', $ambilkata);
     $ambilkata = str_replace('<span class="fa fa-comments">', '<p hidden>', $ambilkata);
-
+    $ambilkata = str_replace('h2', 'h3', $ambilkata);
+    $ambilkata = str_replace('<ul>', '', $ambilkata);
     //style
-    $ambilkata = str_replace('<div class="thumbnail">', '<div class="kotak">', $ambilkata);
+    $ambilkata = str_replace('<div class="thumbnail">', '<br><div class="kotak">', $ambilkata);
        //openurl
       
        $ambilkata = str_replace('<a href="', '<a href="inc/get.php?anti=', $ambilkata);

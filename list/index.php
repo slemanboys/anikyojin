@@ -61,7 +61,7 @@
   </style>
 
 <?php
-echo '<font face=Ubuntu color=gold>
+echo '<font face=Ubuntu color=green>
 <center>[animelist]</center><p>
 <div class="infox">';
 //ambil str

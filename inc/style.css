@@ -2,8 +2,22 @@
 	text-align: center;
   }
 
+  .toto pre {
+    display: inline-block;
+    text-align: left;
+   }
+   
+  .koceng {
+   text-align: center;
+   }
+  
+  .koceng pre {
+    display: inline-block;
+    text-align: left;
+   } 
+
    a {
-   color: pink;
+   color: white;
  }
 
  .sino {
